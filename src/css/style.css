@@ -33,3 +33,30 @@
 .main-container .container-button .btn-preferen-mode::after {
     content: '🌛';
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: white;
+    }
+
+    .lightMode {
+        background-color: white;
+        color: #333;
+    }
+
+    .lightMode .container-button {
+        display: flex;
+        justify-content: end;
+    }
+
+    .lightMode .container-button .btn-preferen-mode {
+        background-color: #1C658C;
+    }
+    
+    .lightMode .container-button .btn-preferen-mode::after {
+        content: '☀';
+        color: yellow;
+        font-size: 1rem;
+    }
+}
