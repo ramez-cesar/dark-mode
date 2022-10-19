@@ -35,6 +35,25 @@
     font-size: .9rem;
 }
 
+main {
+    width: 100%;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    margin-bottom: 30px;
+}
+
+main p {
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    letter-spacing: .4px;
+}
+
 
 @media (prefers-color-scheme: dark) {
     body {
